@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poppins&display=swap');
+:root {
+    --primary-color: #3EA1CC;
+    --secondary-color: #857E61;
+    --accent1-color: #A62639;
+    --accent2-color: #FFC847;
+
+    --heading-font:'Poppins', sans-serif;
+    --paragraph-font:'Didact Gothic', sans-serif;
+
+    --nav-background-color: #A62639;
+    --nav-link-color: #4c1eb8;
+    --nav-hover-link-color: #a6faf3;
+    --nav-hover-background-color: #A62639;
+}
+body {
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}

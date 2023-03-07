@@ -14,14 +14,19 @@ nav a {
 }
 h1 {
     color: steelblue;
+    padding: .5rem;
+}
+main {
+    max-width: 1000px;
 }
 main img {
-    float: right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 p {
     padding: 0;

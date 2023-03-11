@@ -22,6 +22,8 @@ nav a {
 h1 {
     color: steelblue;
     padding: .5rem;
+    border-bottom: 1px solid #b3cfd8;
+    margin-bottom: 1rem;
 }
 header, .grid, footer {
     max-width: 840px;

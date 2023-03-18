@@ -41,12 +41,16 @@ h2, h3, h4, h5, h6 {
 }
 header {
     background-color: var(--accent1-color);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 40px;
+    align-self: center;
     margin-bottom: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+header img {
+    padding-left: 3rem;
 }
 p {
     padding: 25px;

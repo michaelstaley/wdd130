@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Last Edited 03/21/2023 by Michael Staley -->
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> WDD 130 | HTML/CSS Quiz</title>
+        <meta name="description" content="User Poll">
+        <meta name="author" content="Michael Staley">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1> Basic HTML/CSS Quiz</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="q4">1. What is padding automatically set to in CSS?</label>
+                    <input type="number" id="q4" name="q4">
+                    <label for="q3">2. What should be at the top of all HTML documents?</label>
+                    <select id="q3" name="q3">
+                        <option value="comment">A Comment</option>
+                        <option value="doctype">!DOCTYPE html</option>
+                        <option value="header">A Header</option>
+                        <option value="footer">A Footer</option>
+                        <option value="colorChoices">Color Choices</option>
+                        <option value="know">Don't Know/Care</option>
+                    </select>
+                    <label for="q2">3. What is the basic layout of an HTML document?</label>
+                    <textarea id="q2" name="q2" rows="6" placeholder="Ipsum"></textarea>
+                    <label for="q1">4. Fill in the blank: CSS stands for ________ Color Sheets.</label>
+                    <input type="text" id="q1" name="q1">
+                </fieldset>
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+        <footer>
+            &copy;2023 | HTML/CSS Quiz | Michael Staley
+        </footer>
+    </body>

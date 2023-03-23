@@ -37,6 +37,7 @@ h1 {
     position: absolute;
     top: 200px;
     right: 350px;
+    background: rgba(2, 1, 0, 0.521);
 }
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);

@@ -13,7 +13,7 @@
     --nav-hover-link-color: #a6faf3;
     --nav-hover-background-color: #A62639;
 }
-header, main, footer, .hero img {
+header, main, footer, .hero img, .hHero img {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -251,7 +251,7 @@ thead {
     background-color: #333;
     color: #fff;
 }
-.trip1, .trip2, .trip3, .details {
+.trip1, .trip2, .trip3, .details, .news {
     background: rgba(73, 86, 163, 0);
     border: 1px solid #000;
 	padding: 0.1rem;
@@ -318,4 +318,43 @@ thead {
     max-height: 50px;
     background-color: #fff;
     border-color: #fff;
+}
+/* Home */
+.hHero {
+    position: relative;
+}
+.homeT {
+    top: -10px;
+    right: 130px;
+}
+.vTrips {
+    margin-top: 1rem;
+    background: rgba(73, 86, 163, 0);
+    border: 1px solid #000;
+	padding: 0.1rem;
+    margin-bottom: 1rem;
+}
+.tripsButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tripsButton form {
+    max-width: 150px;
+    max-height: 50px;
+    background-color: #fff;
+    border-color: #fff;
+}
+.news {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    margin: 1rem;
+    max-width: 395px;
+}
+.news form {
+    max-width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 2rem;
 }
